@@ -88,13 +88,12 @@ to{opacity:1;}
 <h2>I'm Really Sorry ❤️</h2>
 
 <p>
-I know you're upset with me, and even if it was over something silly,
+I know you're upset with me and even if it was over something silly,
 your feelings are never silly to me.
 </p>
 
 <p>
 Seeing you angry honestly hurts because I love seeing you smile.
-And between us...
 </p>
 
 <h2>✨ You look absolutely adorable when you smile. ✨</h2>
