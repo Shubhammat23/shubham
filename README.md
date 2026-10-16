@@ -312,7 +312,7 @@ width:100%;
 
 
 <h1 class="typing">
-💖 Dear Dr. Khushi 💖
+💖 To the Most Beautiful Smile in My World....Duggu ki mummy 💖
 </h1>
 
 
