@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -83,17 +83,22 @@ to{opacity:1;}
 
 <div class="card">
 
-<h1>💖 To the Cutest Girl Who's Angry at Me 💖</h1>
+<h1>💖 To the most beautiful smile in the world and to the Cutest Girl Who's Angry at Me 💖</h1>
 
 <h2>I'm Really Sorry ❤️</h2>
 
 <p>
-I know you're upset with me and even if it was over something silly,
-your feelings are never silly to me.
+I know I made a mistake. It may have seemed like a small thing to me at that moment, but I understand that it hurt you and that's what matters. I never wanted to be the reason you felt upset or disappointed.
 </p>
 
 <p>
-Seeing you angry honestly hurts because I love seeing you smile.
+There's something I've never told you enough...
+
+I absolutely love your smile.
+
+You look unbelievably cute when you smile, and seeing that smile disappear because of something I did honestly hurts me more than I can explain.
+
+I know an apology doesn't magically fix everything and I'm not expecting you to forgive me instantly. I just want you to know that I'm taking responsibility for what happened and I'm willing to make it right not just with words, but with my actions.
 </p>
 
 <h2>✨ You look absolutely adorable when you smile. ✨</h2>
@@ -115,8 +120,19 @@ I'll keep trying until I get that beautiful smile back.
 </p>
 
 <p>
-No matter how many silly little fights we have...
-I'll always choose <b>YOU.</b>
+Please forgive me
+
+And if you do...
+
+Know that I'll probably be smiling like an idiot because my favorite person chose to give me another chance.
+
+No matter how many little storms come our way, I'll keep choosing us.
+
+Please keep smiling, because your smile has a way of making everything around you brighter.
+
+And keep missing me just a little...
+
+Because I'm definitely missing you a lot more. ❤️ <b>YOU.</b>
 </p>
 
 <button onclick="forgive()">Click to Forgive Me ❤️</button>
@@ -141,6 +157,7 @@ Because the world feels brighter,
 my day feels happier,
 and my heart feels lighter
 when you smile.
+Forever cheering for your smile ❤️    
 </p>
 
 <div class="hearts">
