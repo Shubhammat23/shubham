@@ -1,110 +1,166 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>For You ❤️</title>
-    <style>
-        body {
-            margin: 0;
-            overflow: hidden;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-            text-align: center;
-            color: #fff;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Favorite Girl ❤️</title>
 
-        h1 {
-            margin-top: 100px;
-            font-size: 40px;
-        }
+<style>
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(135deg,#ffdde1,#ee9ca7);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
 
-        p {
-            font-size: 20px;
-        }
+.card{
+    background:white;
+    width:90%;
+    max-width:700px;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.2);
+    text-align:center;
+}
 
-        button {
-            padding: 12px 25px;
-            font-size: 18px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            margin: 10px;
-        }
+h1{
+    color:#ff4f7a;
+}
 
-        #yesBtn {
-            background-color: #28a745;
-            color: white;
-        }
+h2{
+    color:#ff6f91;
+}
 
-        #noBtn {
-            background-color: #dc3545;
-            color: white;
-            position: absolute;
-        }
+p{
+    font-size:18px;
+    line-height:1.7;
+    color:#555;
+}
 
-        #question {
-            display: none;
-            margin-top: 50px;
-        }
+button{
+    margin-top:25px;
+    background:#ff4f7a;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    border-radius:50px;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
 
-        .flower {
-            position: absolute;
-            font-size: 24px;
-            animation: fall linear infinite;
-        }
+button:hover{
+    transform:scale(1.08);
+    background:#ff2f63;
+}
 
-        @keyframes fall {
-            0% { transform: translateY(-100px); }
-            100% { transform: translateY(100vh); }
-        }
-    </style>
+#message{
+    display:none;
+    margin-top:30px;
+    font-size:22px;
+    color:#ff2f63;
+    animation:fade 1s;
+}
+
+@keyframes fade{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+.hearts{
+    font-size:28px;
+    margin-top:20px;
+}
+</style>
+
 </head>
+
 <body>
 
-    <h1>Hey Beautiful 🫶</h1>
-    <p>How was your day? 💫</p>
+<div class="card">
 
-    <button onclick="showQuestion()">Click for a surprise 👀</button>
+<h1>💖 To the Cutest Girl Who's Angry at Me 💖</h1>
 
-    <div id="question">
-        <h2>Did you miss me today? 😌</h2>
-        <button id="yesBtn" onclick="showLove()">Yes ❤️</button>
-        <button id="noBtn">No 😏</button>
-    </div>
+<h2>I'm Really Sorry ❤️</h2>
 
-    <script>
-        function showQuestion() {
-            document.getElementById("question").style.display = "block";
-        }
+<p>
+I know you're upset with me, and even if it was over something silly,
+your feelings are never silly to me.
+</p>
 
-        const noBtn = document.getElementById("noBtn");
+<p>
+Seeing you angry honestly hurts because I love seeing you smile.
+And between us...
+</p>
 
-        noBtn.addEventListener("mouseover", () => {
-            const x = Math.random() * (window.innerWidth - 100);
-            const y = Math.random() * (window.innerHeight - 50);
-            noBtn.style.left = x + "px";
-            noBtn.style.top = y + "px";
-        });
+<h2>✨ You look absolutely adorable when you smile. ✨</h2>
 
-        function showLove() {
-            document.body.innerHTML = "<h1 style='margin-top:200px;'>I knew it 😍❤️</h1>";
-            startFlowers();
-        }
+<p>
+That smile is my favorite thing in the whole world,
+and I never want to be the reason it disappears.
+</p>
 
-        function startFlowers() {
-            setInterval(() => {
-                let flower = document.createElement("div");
-                flower.classList.add("flower");
-                flower.innerHTML = "🌸";
-                flower.style.left = Math.random() * window.innerWidth + "px";
-                flower.style.animationDuration = (Math.random() * 3 + 2) + "s";
-                document.body.appendChild(flower);
+<p>
+So here's my promise...
+I'll keep trying until I get that beautiful smile back.
+</p>
 
-                setTimeout(() => {
-                    flower.remove();
-                }, 5000);
-            }, 200);
-        }
-    </script>
+<p>
+❤️ Keep smiling.<br>
+❤️ Keep missing me.<br>
+❤️ Because I'm definitely missing you.
+</p>
+
+<p>
+No matter how many silly little fights we have...
+I'll always choose <b>YOU.</b>
+</p>
+
+<button onclick="forgive()">Click to Forgive Me ❤️</button>
+
+<div id="message">
+
+<h2>🥹 Thank You!!</h2>
+
+<p>
+Yaaay!! ❤️<br><br>
+
+I knew your heart was way too beautiful to stay angry forever.
+<br><br>
+
+Now there's just one thing left...
+</p>
+
+<h2>😊 Please give me that beautiful smile again.</h2>
+
+<p>
+Because the world feels brighter,
+my day feels happier,
+and my heart feels lighter
+when you smile.
+</p>
+
+<div class="hearts">
+❤️ 💖 🌸 🥰 💕
+</div>
+
+</div>
+
+</div>
+
+<script>
+function forgive(){
+document.getElementById("message").style.display="block";
+window.scrollTo({
+top:document.body.scrollHeight,
+behavior:"smooth"
+});
+}
+</script>
 
 </body>
 </html>
