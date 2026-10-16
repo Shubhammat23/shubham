@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title> To the Most Beautiful Smile in My World.... Sorry Duggu ki mummy ❤️</title>
+<title> To the Most Beautiful Smile in My World.... 
+    Sorry Duggu ki mummy ❤️</title>
 
 <style>
 
@@ -312,7 +313,8 @@ width:100%;
 
 
 <h1 class="typing">
-💖 To the Most Beautiful Smile in My World....Duggu ki mummy 💖
+💖 To the Most Beautiful Smile in My World....
+    Duggu ki mummy 💖
 </h1>
 
 
