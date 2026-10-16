@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Sorry Dr. Khushi ❤️</title>
+<title> To the Most Beautiful Smile in My World.... Sorry Duggu ki mummy ❤️</title>
 
 <style>
 
