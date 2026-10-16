@@ -182,7 +182,7 @@ and I'm not expecting you to forgive me instantly.
 
 I just want you to know that
 I'm taking responsibility for what happened
-and I'm willing to make it right—
+and I'm willing to make it right
 not just with words,
 but with my actions.
 </p>
