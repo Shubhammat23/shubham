@@ -183,12 +183,11 @@ and I'm not expecting you to forgive me instantly.
 I just want you to know that
 I'm taking responsibility for what happened
 and I'm willing to make it right
-not just with words,
-but with my actions.
+not just with words, but with my actions.
 </p>
 
 <p>
-Thank you for being patient with me,
+Thank you for being patient with me
 and for being someone so incredibly special in my life.
 </p>
 
