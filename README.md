@@ -1,312 +1,596 @@
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>I'm Sorry ❤️</title>
+
+<title>Sorry Dr. Khushi ❤️</title>
 
 <style>
+
 *{
-    margin:0;
-    padding:0;
     box-sizing:border-box;
 }
 
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background:linear-gradient(135deg,#ffd6e0,#ffe8f0,#fff5f7);
+    margin:0;
+    padding:20px;
+    font-family:'Segoe UI', Arial, sans-serif;
+    background:linear-gradient(135deg,#ffd6e0,#ffeef3,#fff);
     min-height:100vh;
     display:flex;
     justify-content:center;
-    align-items:center;
-    padding:30px;
+    align-items:flex-start;
 }
 
+
 .container{
-    max-width:800px;
-    background:#fff;
+
+    width:100%;
+    max-width:750px;
+    background:white;
     border-radius:25px;
-    padding:45px;
-    box-shadow:0 20px 50px rgba(0,0,0,.15);
+    padding:35px 25px;
+    margin:20px auto;
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,0.15);
+
     text-align:center;
 }
 
+
+
 h1{
-    color:#ff4d79;
-    margin-bottom:10px;
-    font-size:2.3rem;
+
+    color:#ff477e;
+    font-size:32px;
+    margin-bottom:15px;
+
 }
+
 
 h2{
+
     color:#ff6699;
-    margin:20px 0;
+    margin:25px 0;
+
 }
+
 
 p{
-    font-size:18px;
-    line-height:1.9;
+
     color:#555;
+    font-size:18px;
+    line-height:1.8;
     margin:18px 0;
+
 }
+
 
 .highlight{
+
     color:#ff3366;
     font-weight:bold;
+
 }
+
 
 .quote{
-    font-size:22px;
-    color:#ff4d79;
+
+    font-size:23px;
+    color:#ff477e;
     font-weight:bold;
-    margin:30px 0;
+
 }
+
+
 
 button{
+
     margin-top:30px;
-    padding:16px 40px;
+    background:#ff477e;
+    color:white;
+
     border:none;
     border-radius:50px;
-    background:#ff4d79;
-    color:white;
+
+    padding:16px 35px;
+
     font-size:18px;
+
     cursor:pointer;
-    transition:.3s;
+
+    transition:0.3s;
+
 }
+
 
 button:hover{
-    transform:scale(1.05);
-    background:#ff1f5b;
+
+    transform:scale(1.07);
+    background:#ff1f63;
+
 }
+
+
 
 #surprise{
+
     display:none;
+
     margin-top:35px;
+
     padding:25px;
-    background:#fff0f5;
+
+    background:#fff2f6;
+
     border-radius:20px;
-    animation:fadeIn 1s ease;
+
+    animation:appear 1s ease;
+
 }
 
-#surprise h2{
-    color:#ff3366;
-}
 
-#surprise p{
-    color:#555;
-}
 
 .hearts{
+
     font-size:30px;
     margin-top:20px;
+
 }
+
+
 
 .footer{
+
     margin-top:30px;
-    color:#888;
+
     font-style:italic;
+
+    color:#888;
+
 }
 
-@keyframes fadeIn{
-    from{
-        opacity:0;
-        transform:translateY(20px);
-    }
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
+
+
+.typing{
+
+    overflow:hidden;
+
+    white-space:nowrap;
+
+    animation:
+    typing 3s steps(40),
+    blink .7s infinite;
+
+    border-right:3px solid #ff477e;
+
 }
+
+
+@keyframes typing{
+
+from{
+width:0;
+}
+
+to{
+width:100%;
+}
+
+}
+
+
+@keyframes blink{
+
+50%{
+border-color:transparent;
+}
+
+}
+
+
+
+@keyframes appear{
+
+from{
+
+opacity:0;
+transform:translateY(30px);
+
+}
+
+to{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+}
+
+
+
+.floating-heart{
+
+position:fixed;
+
+top:-20px;
+
+font-size:25px;
+
+animation:fall linear forwards;
+
+}
+
+
+
+@keyframes fall{
+
+to{
+
+transform:translateY(110vh) rotate(360deg);
+
+opacity:0;
+
+}
+
+}
+
+
+
+@media(max-width:768px){
+
+
+body{
+
+padding:12px;
+
+}
+
+
+.container{
+
+padding:25px 18px;
+
+}
+
+
+
+h1{
+
+font-size:26px;
+
+}
+
+
+h2{
+
+font-size:22px;
+
+}
+
+
+p{
+
+font-size:16px;
+
+line-height:1.7;
+
+}
+
+
+.quote{
+
+font-size:20px;
+
+}
+
+
+button{
+
+width:100%;
+
+}
+
+
+
+}
+
+
+
 </style>
 
 </head>
 
+
 <body>
+
 
 <div class="container">
 
-<h1>💖 To the Most Beautiful Smile in My World 💖</h1>
 
-<h2>I'm Truly Sorry ❤️</h2>
+<h1 class="typing">
+💖 Dear Dr. Khushi 💖
+</h1>
+
+
+<h2>
+I'm Truly Sorry ❤️
+</h2>
+
 
 <p>
-If you're reading this, it means I wanted to do something a little different
-to tell you something that I should have said better...
+
+I wanted to do something special instead of just saying a simple sorry.
+
+So here I am, trying to tell you what I should have said properly...
+
 </p>
+
+
 
 <p class="highlight">
+
 I'm sorry.
+
 </p>
 
+
+
 <p>
+
 I know I made a mistake.
-It may have seemed like a small thing to me at that moment,
-but I understand that it hurt you
-and that's what matters.
-I never wanted to be the reason you felt upset or disappointed.
+
+Maybe it felt like a small thing to me at that moment,
+but I understand that it affected you, and your feelings matter to me.
+
+I never wanted to be the reason behind your sadness or your silence.
+
 </p>
+
+
 
 <p>
-You deserve to be listened to,
-understood
-and treated with care.
-If I failed to do that,
-then I'm genuinely sorry.
+
+You deserve to be heard, understood, and cared for.
+
+If my actions made you feel otherwise,
+I genuinely apologise.
+
 </p>
+
+
+
+
+<h2>
+❤️ One thing I want you to know ❤️
+</h2>
+
+
 
 <p>
-One thing I've realized is that
-no argument,
-no misunderstanding
-and no silly mistake
-is ever more important than <span class="highlight">YOU.</span>
 
+No silly misunderstanding, no argument, and no mistake
+is more important than the bond we share.
+
+I would rather accept my mistake than let something small create distance between us.
 
 </p>
 
-<h2>❤️ There's something I don't say enough... ❤️</h2>
+
 
 <p class="quote">
-I absolutely love your smile.
+
+Your smile is my favourite thing. 😊
+
 </p>
 
-<p>
-It's my favorite part of every conversation.
 
-You look unbelievably cute when you smile
-and seeing that smile disappear because of something I did
-honestly hurts me more than I can explain.
+
+<p>
+
+You look incredibly cute when you smile,
+and honestly, I hate seeing you angry because I miss that beautiful smile.
+
+Seeing you happy makes everything feel better.
+
 </p>
 
-<p>
-I know an apology doesn't magically fix everything,
-and I'm not expecting you to forgive me instantly.
 
-I just want you to know that
-I'm taking responsibility for what happened
-and I'm willing to make it right
-not just with words, but with my actions.
+
+
+<p>
+
+I know saying sorry cannot instantly fix everything.
+
+I don't expect you to forget it immediately.
+
+I just want you to know that I understand my mistake,
+and I'll try to be better through my actions.
+
 </p>
 
+
+
 <p>
-Thank you for being patient with me
-and for being someone so incredibly special in my life.
+
+Thank you for being patient with me,
+for caring,
+and for being such a special person in my life.
+
 </p>
 
+
+
 <p>
-If you're still upset,
-I'll understand.
 
-If you need time,
-I'll respect that.
+If you are still upset, I understand.
 
-But please don't ever doubt
-how much you mean to me.
+If you need some time, I'll respect that.
+
+But please remember...
+
+You mean a lot to me.
+
 </p>
 
-<h2>❤️ Just one little request... ❤️</h2>
+
+
+
+<h2>
+🌸 A small request 🌸
+</h2>
+
 
 <p>
+
 Whenever your heart feels ready...
+
 click the button below.
+
 </p>
+
+
 
 <button onclick="forgiveMe()">
-💖 Click to Forgive Me 💖
+
+❤️ Click to Forgive Me ❤️
+
 </button>
+
+
+
 
 <div id="surprise">
 
-<h2>🥹 Thank You ❤️</h2>
+
+<h2>
+🥹 Thank You ❤️
+</h2>
+
 
 <p>
-I won't lie...
-seeing this button being clicked
-already makes me smile.
+
+This little click means more than you know.
+
+I'll remember this moment and make sure my actions show how much I value you.
+
 </p>
 
-<p>
-Thank you for giving my apology a place in your heart.
-</p>
-
-<p>
-I know trust is built through actions,
-not promises.
-
-So I'll let my actions show you
-how much you mean to me.
-</p>
 
 <p class="quote">
-Please give me that beautiful smile again. 😊❤️
+
+Can I please have that beautiful smile back? 😊
+
 </p>
 
-<p>
-Because my day feels brighter,
-my heart feels lighter
-and everything feels a little more complete
-when you're smiling.
-</p>
+
 
 <p>
-No matter how many little storms come our way,
-I'll always choose <span class="highlight">US.</span>
-</p>
 
-<p>
 Keep smiling...
 
-Keep missing me just a little...
+Keep being the amazing person you are...
 
-Because I'm definitely missing you much more. ❤️
+And maybe miss me just a little...
+
+Because I definitely miss you. ❤️
+
 </p>
 
+
 <div class="hearts">
-❤️ 💕 🌹 🥰 🌸 💖
-</div>
+
+❤️ 💕 🌸 🥰 🌹
 
 </div>
+
+
+
+</div>
+
+
+
 
 <div class="footer">
-Forever cheering for your smile. ❤️
-</div>
+
+No matter how many small storms come our way,
+I'll always choose understanding, patience, and us.
+
+<br><br>
+
+Your very sorry idiot ❤️
 
 </div>
+
+
+
+</div>
+
+
 
 <script>
-function forgiveMe() {
-    const surprise = document.getElementById("surprise");
 
-    surprise.style.display = "block";
 
-    surprise.scrollIntoView({
-        behavior: "smooth"
-    });
+function forgiveMe(){
 
-    // Confetti hearts
-    for(let i=0;i<30;i++){
-        let heart=document.createElement("div");
-        heart.innerHTML="❤️";
-        heart.style.position="fixed";
-        heart.style.left=Math.random()*100+"vw";
-        heart.style.top="-20px";
-        heart.style.fontSize=(20+Math.random()*20)+"px";
-        heart.style.animation="fall "+(3+Math.random()*3)+"s linear forwards";
-        document.body.appendChild(heart);
 
-        setTimeout(()=>{
-            heart.remove();
-        },6000);
-    }
+document.getElementById("surprise").style.display="block";
+
+
+document.getElementById("surprise")
+.scrollIntoView({
+
+behavior:"smooth"
+
+});
+
+
+
+for(let i=0;i<35;i++){
+
+
+let heart=document.createElement("div");
+
+
+heart.innerHTML="❤️";
+
+
+heart.className="floating-heart";
+
+
+heart.style.left=Math.random()*100+"vw";
+
+
+heart.style.animationDuration=
+(3+Math.random()*3)+"s";
+
+
+document.body.appendChild(heart);
+
+
+
+setTimeout(()=>{
+
+heart.remove();
+
+},6000);
+
+
+
 }
+
+
+
+}
+
+
 </script>
 
-<style>
-@keyframes fall{
-    to{
-        transform:translateY(110vh) rotate(360deg);
-        opacity:0;
-    }
-}
-</style>
+
 
 </body>
+
 </html>
