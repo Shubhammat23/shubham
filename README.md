@@ -344,7 +344,7 @@ I'm sorry.
 I know I made a mistake.
 
 Maybe it felt like a small thing to me at that moment,
-but I understand that it affected you, and your feelings matter to me.
+but I understand that it affected you and your feelings matter to me.
 
 I never wanted to be the reason behind your sadness or your silence.
 
@@ -354,7 +354,7 @@ I never wanted to be the reason behind your sadness or your silence.
 
 <p>
 
-You deserve to be heard, understood, and cared for.
+You deserve to be heard, understood and care for.
 
 If my actions made you feel otherwise,
 I genuinely apologise.
@@ -372,7 +372,7 @@ I genuinely apologise.
 
 <p>
 
-No silly misunderstanding, no argument, and no mistake
+No silly misunderstanding, argument or a mistake
 is more important than the bond we share.
 
 I would rather accept my mistake than let something small create distance between us.
@@ -407,7 +407,7 @@ I know saying sorry cannot instantly fix everything.
 
 I don't expect you to forget it immediately.
 
-I just want you to know that I understand my mistake,
+I just want you to know that I understand my mistake
 and I'll try to be better through my actions.
 
 </p>
@@ -416,8 +416,7 @@ and I'll try to be better through my actions.
 
 <p>
 
-Thank you for being patient with me,
-for caring,
+Thank you for being patient with me
 and for being such a special person in my life.
 
 </p>
@@ -517,7 +516,7 @@ Because I definitely miss you. ❤️
 <div class="footer">
 
 No matter how many small storms come our way,
-I'll always choose understanding, patience, and us.
+I'll always choose understanding, patience and us.
 
 <br><br>
 
